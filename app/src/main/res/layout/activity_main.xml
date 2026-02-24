@@ -16,7 +16,10 @@
         android:layout_margin="5dp"
         android:layout_marginTop="160dp"
         android:background="@color/white"
-        app:backgroundTint="#C5C5C5"/>
+        app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"
+
+        />
 
     <Button
         android:id="@+id/btn1"
@@ -25,7 +28,8 @@
         android:layout_margin="5dp"
         android:layout_marginTop="160dp"
         android:background="@color/white"
-        app:backgroundTint="#C5C5C5"/>
+        app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"/>
 
     <Button
         android:id="@+id/btn2"
@@ -34,7 +38,8 @@
         android:layout_margin="5dp"
         android:layout_marginTop="160dp"
         android:background="@color/white"
-        app:backgroundTint="#C5C5C5"/>
+        app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"/>
 
     <Button
         android:id="@+id/btn3"
@@ -42,7 +47,8 @@
         android:layout_height="115dp"
         android:layout_margin="5dp"
         android:background="@color/white"
-        app:backgroundTint="#C5C5C5"/>
+        app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"/>
 
     <Button
         android:id="@+id/btn4"
@@ -50,7 +56,8 @@
         android:layout_height="115dp"
         android:layout_margin="5dp"
         android:background="@color/white"
-        app:backgroundTint="#C5C5C5"/>
+        app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"/>
 
     <Button
         android:id="@+id/btn5"
@@ -58,7 +65,8 @@
         android:layout_height="115dp"
         android:layout_margin="5dp"
         android:background="@color/white"
-        app:backgroundTint="#C5C5C5"/>
+        app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"/>
 
     <Button
         android:id="@+id/btn6"
@@ -66,7 +74,8 @@
         android:layout_height="115dp"
         android:layout_margin="5dp"
         android:background="@color/white"
-        app:backgroundTint="#C5C5C5"/>
+        app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"/>
 
     <Button
         android:id="@+id/btn7"
@@ -75,6 +84,7 @@
         android:background="@color/white"
         android:layout_margin="5dp"
         app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"
         />
     <Button
         android:id="@+id/btn8"
@@ -83,14 +93,7 @@
         android:background="@color/white"
         android:layout_margin="5dp"
         app:backgroundTint="#C5C5C5"
+        android:textSize="60sp"
         />
-<!--    <Button android:id="@+id/btn1" style="@style/GameButton"/>-->
-<!--    <Button android:id="@+id/btn2" style="@style/GameButton"/>-->
-<!--    <Button android:id="@+id/btn3" style="@style/GameButton"/>-->
-<!--    <Button android:id="@+id/btn4" style="@style/GameButton"/>-->
-<!--    <Button android:id="@+id/btn5" style="@style/GameButton"/>-->
-<!--    <Button android:id="@+id/btn6" style="@style/GameButton"/>-->
-<!--    <Button android:id="@+id/btn7" style="@style/GameButton"/>-->
-<!--    <Button android:id="@+id/btn8" style="@style/GameButton"/>-->
 
 </GridLayout>
