@@ -1,99 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/gridLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:rowCount="3"
-    android:columnCount="3"
-    android:layout_gravity="center"
-    android:padding="16dp">
+    android:background="#F5F5F5"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn0"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_margin="5dp"
-        android:layout_marginTop="160dp"
-        android:background="@color/white"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Kółko\ni\nKrzyżyk"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:textColor="#333333"
+        android:textSize="55sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold" />
 
-        />
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="3">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_margin="5dp"
-        android:layout_marginTop="160dp"
-        android:background="@color/white"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"/>
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5"
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_margin="5dp"
-        android:layout_marginTop="160dp"
-        android:background="@color/white"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"/>
+            />
 
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_margin="5dp"
-        android:background="@color/white"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"/>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
 
-    <Button
-        android:id="@+id/btn4"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_margin="5dp"
-        android:background="@color/white"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
 
-    <Button
-        android:id="@+id/btn5"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_margin="5dp"
-        android:background="@color/white"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
 
-    <Button
-        android:id="@+id/btn6"
-        android:layout_width="115dp"
-        android:layout_height="115dp"
-        android:layout_margin="5dp"
-        android:background="@color/white"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
 
-    <Button
-        android:id="@+id/btn7"
-        android:layout_height="115dp"
-        android:layout_width="115dp"
-        android:background="@color/white"
-        android:layout_margin="5dp"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"
-        />
-    <Button
-        android:id="@+id/btn8"
-        android:layout_height="115dp"
-        android:layout_width="115dp"
-        android:background="@color/white"
-        android:layout_margin="5dp"
-        app:backgroundTint="#C5C5C5"
-        android:textSize="60sp"
-        />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
 
-</GridLayout>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="#C5C5C5" />
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/gameImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/grafikakolkoikrzyzyk" />
+
+</LinearLayout>
