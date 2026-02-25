@@ -8,12 +8,16 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kolkoikrzyzyk.R;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
     Button[] buttons = new Button[9];
     boolean playerX = true;
     int moveCount = 0;
+    DatabaseHelper dbHelper;
 
     int[][] winPositions = {
             {0,1,2}, {3,4,5}, {6,7,8},
@@ -25,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        dbHelper = new DatabaseHelper(this);
 
         for (int i = 0; i < 9; i++) {
             String buttonID = "btn" + i;
@@ -78,5 +83,9 @@ public class MainActivity extends AppCompatActivity {
         }
         moveCount = 0;
         playerX = true;
+    }
+    private String getCurrentTime() {
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss  dd-MM-yyyy", Locale.getDefault());
+        return sdf.format(new Date());
     }
 }
