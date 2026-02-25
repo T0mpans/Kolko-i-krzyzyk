@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
+    android:background="#FFE4C4"
     android:orientation="vertical">
 
     <TextView
@@ -35,7 +35,7 @@
             android:layout_marginTop="0dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5"
+            app:backgroundTint="#8BC19A6B"
 
             />
 
@@ -47,7 +47,7 @@
             android:layout_marginTop="0dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
         <Button
             android:id="@+id/btn2"
@@ -57,7 +57,7 @@
             android:layout_marginTop="0dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
         <Button
             android:id="@+id/btn3"
@@ -66,7 +66,7 @@
             android:layout_margin="5dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
         <Button
             android:id="@+id/btn4"
@@ -75,7 +75,7 @@
             android:layout_margin="5dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
         <Button
             android:id="@+id/btn5"
@@ -84,7 +84,7 @@
             android:layout_margin="5dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
         <Button
             android:id="@+id/btn6"
@@ -93,7 +93,7 @@
             android:layout_margin="5dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
         <Button
             android:id="@+id/btn7"
@@ -102,7 +102,7 @@
             android:layout_margin="5dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
         <Button
             android:id="@+id/btn8"
@@ -111,7 +111,7 @@
             android:layout_margin="5dp"
             android:background="@color/white"
             android:textSize="60sp"
-            app:backgroundTint="#C5C5C5" />
+            app:backgroundTint="#8BC19A6B" />
 
     </GridLayout>
 
