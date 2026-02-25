@@ -122,6 +122,6 @@
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:layout_marginTop="10dp"
-        android:src="@drawable/grafikakolkoikrzyzyk" />
+        android:src="@drawable/kolkoikrzyzyk4" />
 
 </LinearLayout>
