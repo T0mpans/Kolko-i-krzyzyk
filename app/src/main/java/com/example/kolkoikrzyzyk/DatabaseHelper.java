@@ -40,6 +40,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(COL_TIME, time);
         values.put(COL_RESULT, result);
         db.insert(TABLE_NAME, null, values);
-        db.close();
+//        db.close();
     }
 }

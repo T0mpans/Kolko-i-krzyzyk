@@ -48,15 +48,19 @@ public class MainActivity extends AppCompatActivity {
         moveCount++;
 
         if (checkWin()) {
-            Toast.makeText(this,
-                    "Wygrywa " + (playerX ? "O" : "X"),
-                    Toast.LENGTH_LONG).show();
+            String winner = "Wygrywa " + (playerX ? "O" : "X");
+            Toast.makeText(this, winner, Toast.LENGTH_LONG).show();
+
+            dbHelper.insertResult(getCurrentTime(), winner);
             resetGame();
             return;
         }
 
         if (moveCount == 9) {
-            Toast.makeText(this, "Remis!", Toast.LENGTH_LONG).show();
+            String draw = "Remis";
+            Toast.makeText(this, draw, Toast.LENGTH_LONG).show();
+
+            dbHelper.insertResult(getCurrentTime(), draw);
             resetGame();
             return;
         }
